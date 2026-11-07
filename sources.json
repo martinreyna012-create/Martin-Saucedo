@@ -1,0 +1,22 @@
+[
+  {
+    "module": "chef",
+    "project_id": "appgprj_6ae3cd7882988191b3c7e9e4b4dd517f",
+    "source_commit": "e898644d8e4d8363c663a83378f64147903a2b48"
+  },
+  {
+    "module": "sonidos",
+    "project_id": "appgprj_6ae15348f970819191b363b51a6a6c78",
+    "source_commit": "57060e0f9127af14a26e79f0282f1983f0a996db"
+  },
+  {
+    "module": "plan",
+    "project_id": "appgprj_6ae3f02d9b7081919ac13314a5ab2f7e",
+    "source_commit": "260a4b400cddb0cfba92c98924679bcfe7bb0d21"
+  },
+  {
+    "module": "mochila",
+    "project_id": "appgprj_6ae14f7585b48191a7066f003ff3506e",
+    "source_commit": "9b61012fdb6419cedd55d4fc3d9eb0e96fe83168"
+  }
+]

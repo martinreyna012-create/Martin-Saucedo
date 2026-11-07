@@ -1,0 +1,20 @@
+[
+  {
+    "file": "restaurant.mp3",
+    "title": "Restaurant",
+    "author": "Joseph SARDIN",
+    "source": "https://bigsoundbank.com/restaurant-s0624.html",
+    "download": "https://bigsoundbank.com/UPLOAD/mp3/0624.mp3",
+    "license": "CC0 1.0",
+    "description": "Grabación real del ambiente de una pizzería, con conversaciones y vajilla."
+  },
+  {
+    "file": "kitchen.mp3",
+    "title": "Frying pan #2",
+    "author": "Joseph SARDIN",
+    "source": "https://bigsoundbank.com/frying-pan-2-s0144.html",
+    "download": "https://bigsoundbank.com/UPLOAD/mp3/0144.mp3",
+    "license": "CC0 1.0",
+    "description": "Grabación real de una sartén cocinando."
+  }
+]

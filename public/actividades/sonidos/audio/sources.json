@@ -1,0 +1,67 @@
+[
+  {
+    "key": "drops",
+    "author": "qubodup",
+    "title": "Slow Single Water Drop Splash",
+    "page": "https://freesound.org/people/qubodup/sounds/792932/",
+    "preview": "https://cdn.freesound.org/previews/792/792932_71257-hq.mp3",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bytes": 10176,
+    "file": "audio/drops-real.mp3",
+    "duration_seconds": 0.321,
+    "edits": "Recorte de silencios, conversión a mono y ajuste de volumen con fundidos breves. Sin síntesis ni cambio de tono."
+  },
+  {
+    "key": "whistle",
+    "author": "Sami_Kullström",
+    "title": "Short whistle.wav",
+    "page": "https://freesound.org/people/Sami_Kullstr%C3%B6m/sounds/388053/",
+    "preview": "https://cdn.freesound.org/previews/388/388053_7282645-hq.mp3",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bytes": 10539,
+    "file": "audio/whistle-real.mp3",
+    "duration_seconds": 0.459,
+    "edits": "Recorte de silencios, conversión a mono y ajuste de volumen con fundidos breves. Sin síntesis ni cambio de tono."
+  },
+  {
+    "key": "bell",
+    "author": "5ro4",
+    "title": "bell ding 1.wav",
+    "page": "https://freesound.org/people/5ro4/sounds/611113/",
+    "preview": "https://cdn.freesound.org/previews/611/611113_1629501-hq.mp3",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bytes": 60057,
+    "file": "audio/bell-real.mp3",
+    "duration_seconds": 1.096,
+    "edits": "Recorte de silencios, conversión a mono y ajuste de volumen con fundidos breves. Sin síntesis ni cambio de tono."
+  },
+  {
+    "key": "drum",
+    "author": "KEVOY",
+    "title": "acoustic snare.wav",
+    "page": "https://freesound.org/people/KEVOY/sounds/82249/",
+    "preview": "https://cdn.freesound.org/previews/82/82249_1299633-hq.mp3",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bytes": 16489,
+    "file": "audio/drum-real.mp3",
+    "duration_seconds": 0.226,
+    "edits": "Recorte de silencios, conversión a mono y ajuste de volumen con fundidos breves. Sin síntesis ni cambio de tono."
+  },
+  {
+    "key": "horn",
+    "author": "KRAFTWERK2K1",
+    "title": "car_horn.wav",
+    "page": "https://freesound.org/people/KRAFTWERK2K1/sounds/32417/",
+    "preview": "https://cdn.freesound.org/previews/32/32417_276701-hq.mp3",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "bytes": 22560,
+    "file": "audio/horn-real.mp3",
+    "duration_seconds": 0.919,
+    "edits": "Recorte de silencios, conversión a mono y ajuste de volumen con fundidos breves. Sin síntesis ni cambio de tono."
+  }
+]

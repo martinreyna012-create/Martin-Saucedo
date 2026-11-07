@@ -1,0 +1,74 @@
+/* The same compact entry and unobtrusive pause used in Vuelo de colores. */
+[data-activity]>header{min-height:70px;height:auto;max-width:1150px;padding:12px 24px;margin:0 auto;background:transparent;color:var(--ink,#264a3d);border-bottom:1px solid #dce4d5}
+[data-activity]>header .brand img,[data-activity]>header .mochila-brand img{width:38px;height:38px;object-fit:contain}
+[data-activity]>header .brand small,[data-activity]>header .brand-sub,[data-activity] .header-label,[data-activity] .top-tag,[data-activity] .open-sign,[data-activity="mochila"]>header small,#pauseMission,#historyCount{display:none}
+[data-activity]>header .quiet{font-size:11px;padding:9px 11px}[data-activity] #historyBtn:disabled{display:none}
+[data-focus-screen="home"]>footer,[data-focus-screen="setup"]>footer{display:none}
+.focus-home{max-width:540px;margin:12px auto 0;text-align:center}
+.focus-home h1{font:400 40px/1.15 Georgia,serif!important;letter-spacing:-1.2px!important;margin:0 0 14px!important;color:var(--ink,#264a3d)}
+.focus-home>.focus-prompt{font-size:13px;line-height:1.75;color:var(--muted,#6d7e70);margin:0 0 24px}
+.focus-home>.focus-start{width:100%;min-height:49px;display:flex;align-items:center;justify-content:center;margin:22px 0 17px!important;border-radius:9px;font:600 12px/1.5 system-ui;box-shadow:none}
+.focus-home>.focus-start span{margin-left:12px}
+.focus-settings{border:0;border-top:1px solid #dce4d5;margin:0;padding:0;text-align:left;background:transparent;border-radius:0}
+.focus-settings>summary{cursor:pointer;color:#6d8165;font:500 11px/1.5 system-ui;padding:15px 3px;list-style-position:inside;min-height:46px}
+.focus-settings>summary:focus-visible{outline:3px solid #81a892;outline-offset:3px;border-radius:4px}
+.focus-settings-content{padding:4px 0 15px!important;background:transparent!important;border:0!important;margin:0!important;display:block!important}
+.focus-settings-content fieldset{margin:15px 0}.focus-settings-content label,.focus-settings-content legend{font:600 11px/1.6 system-ui}.focus-settings-content select{font:12px/1.5 system-ui;padding:10px;border:1px solid #cbd8c4;border-radius:8px;background:white;color:#315442}
+.focus-settings-content .secondary{font-size:11px}.focus-settings-content .focus-setup-note{font-size:11px;color:#70836b;line-height:1.75}
+.focus-pause{position:fixed;right:16px;top:16px;z-index:80;width:44px;height:44px;padding:13px;border:1px solid #6f8b6b22;border-radius:50%;color:#476547;background:#fafcf6cc;opacity:.4;transition:opacity .15s;display:grid;place-items:center;box-shadow:none;cursor:pointer;touch-action:manipulation}
+.focus-pause svg{width:100%;height:100%;pointer-events:none}.focus-pause[hidden]{display:none!important}.focus-pause:hover,.focus-pause:focus-visible{opacity:1;background:#edf4e8;outline-color:#81a892}
+body.activity-focus>header,body.activity-focus>footer{display:none}
+body.activity-focus main{max-width:1200px;margin:0 auto;padding:48px 24px 26px;min-height:100dvh}
+.focus-visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+/* Chef: the customer, speech bubble, counter and ingredient controls are the task. */
+[data-activity="chef"] .module-options{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin:0}
+[data-activity="chef"] .module-card{display:block;min-height:110px;padding:18px 12px;background:#fffdf7;border:1px solid #dce4d5;border-radius:13px;text-align:center;box-shadow:none}
+[data-activity="chef"] .module-card[aria-pressed=true]{background:#edf4e9;border-color:#6f986e;box-shadow:0 0 0 1px #6f986e}
+[data-activity="chef"] .module-card strong{font:500 20px/1.3 Georgia,serif;display:block;color:#315442}
+[data-activity="chef"] .module-card small,[data-activity="chef"] .module-card em,[data-activity="chef"] .module-card i,[data-activity="chef"] .module-icon{display:none}
+[data-activity="chef"] #modeTitle,[data-activity="chef"] #modeDescription,[data-activity="chef"] #modeTimingNote{display:none}
+[data-activity="chef"].activity-focus .sessionbar,[data-activity="chef"].activity-focus .service-hud,[data-activity="chef"].activity-focus #timeTrack,[data-activity="chef"].activity-focus #recipeQueuePanel,[data-activity="chef"].activity-focus .pov-label,[data-activity="chef"].activity-focus .assembly-caption,[data-activity="chef"].activity-focus #plateHint,[data-activity="chef"].activity-focus #arrivalStatus,[data-activity="chef"].activity-focus #ingredientStatus,[data-activity="chef"].activity-focus #supportNote,[data-activity="chef"].activity-focus .order-tabs small,[data-activity="chef"].activity-focus .study-counter,[data-activity="chef"].activity-focus #studyMetrics,[data-activity="chef"].activity-focus .study-heading .eyebrow{display:none!important}
+[data-activity="chef"].activity-focus #restaurantRoom{margin-top:0}
+[data-activity="chef"].activity-focus #recipeStudy .study-heading{margin-top:0}
+[data-activity="chef"].activity-paused .actor-motion,[data-activity="chef"].activity-paused .actor-motion *,[data-activity="chef"].activity-paused .line-actor{animation-play-state:paused!important}
+/* Sounds: one stable response button; no countdown, progress or running totals. */
+[data-activity="sonidos"] .sound-buttons{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:0}
+[data-activity="sonidos"] .sound-card{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;min-height:103px;padding:14px 8px;background:#fff;border:1px solid #dce4d5;border-radius:13px;box-shadow:none;text-align:center}
+[data-activity="sonidos"] .sound-card.target-sample{background:#edf4e9;border-color:#6f986e;box-shadow:0 0 0 1px #6f986e}
+[data-activity="sonidos"] .sound-card>span:nth-child(2){font-size:12px}.sound-card .sample-icon{font-size:26px}
+[data-activity="sonidos"] .sound-card small,[data-activity="sonidos"] .sound-card>b{display:none}
+[data-activity="sonidos"] #homeRule{display:block;font-size:13px;color:#61765c;line-height:1.7;margin:20px 0 0}
+[data-activity="sonidos"] .config-panel{box-shadow:none!important;border-radius:0!important}
+[data-activity="sonidos"].activity-focus main{padding:0;max-width:none;min-height:100dvh}
+[data-activity="sonidos"].activity-focus #play{height:100dvh;min-height:460px;display:grid;place-items:center;margin:0;padding:20px}
+[data-activity="sonidos"].activity-focus .session-top,[data-activity="sonidos"].activity-focus .mission-copy,[data-activity="sonidos"].activity-focus #countdown,[data-activity="sonidos"].activity-focus #circleCaption,[data-activity="sonidos"].activity-focus .keyboard-hint{display:none!important}
+[data-activity="sonidos"].activity-focus .session-layout{display:block;width:100%;margin:0;padding:0}
+[data-activity="sonidos"].activity-focus .response-zone{min-height:0;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:0;margin:0}
+[data-activity="sonidos"].activity-focus .response-button{width:240px;height:240px;max-width:70vw;max-height:70vw;margin:0}
+[data-activity="sonidos"].activity-focus #practiceFeedback{min-height:40px;max-width:350px;font-size:12px;line-height:1.7;text-align:center;margin:15px 0 0}
+/* Mochila: the instructions, material selection and the bag remain visible. */
+[data-activity="mochila"] main>.hero{display:none}
+[data-activity="mochila"] #setup.panel{border:0;background:transparent;padding:0;box-shadow:none}
+[data-activity="mochila"] .focus-home .focus-start{background:#315d4d}
+[data-activity="mochila"] .focus-settings select{width:100%;display:block;margin-top:9px}
+[data-activity="mochila"] .focus-prompt{color:#6d7e70}
+[data-activity="mochila"].activity-focus .panel{border:0;margin-top:0;padding:12px 0;background:transparent;box-shadow:none}
+[data-activity="mochila"].activity-focus .kicker,[data-activity="mochila"].activity-focus #count,[data-activity="mochila"].activity-focus #changeCount{display:none}
+[data-activity="mochila"].activity-focus .stage h2{font-size:27px}
+[data-activity="mochila"].activity-focus .bag{min-height:145px}
+[data-activity="mochila"].activity-focus .tip{font-size:12px}
+/* Plan: preserve the situation, steps and controls; hide decorative step totals. */
+[data-activity="plan"] .focus-home{max-width:760px}
+[data-activity="plan"] .missions{margin:0;gap:12px}
+[data-activity="plan"] .mission-card{padding:19px 16px;min-height:155px;border-radius:13px}
+[data-activity="plan"] .mission-card small,[data-activity="plan"] .mission-card p{display:none}
+[data-activity="plan"] .mission-card h3{font:500 22px/1.25 Georgia,serif;margin:12px 0 0}
+[data-activity="plan"] .focus-settings-content .segmented{max-width:none}
+[data-activity="plan"] .focus-settings-content .math-config{margin-top:18px}
+[data-activity="plan"].activity-focus .topline,[data-activity="plan"].activity-focus .execution-top,[data-activity="plan"].activity-focus .progress-track,[data-activity="plan"].activity-focus #bankCount,[data-activity="plan"].activity-focus #planCount,[data-activity="plan"].activity-focus .workspace-heading .eyebrow,[data-activity="plan"].activity-focus .route>p{display:none}
+[data-activity="plan"].activity-focus .work-layout{margin-top:0}
+@media(max-width:700px){[data-activity]>header{min-height:62px;padding:12px 17px;gap:9px}[data-activity]>header .quiet{font-size:10px;padding:7px 5px}.focus-home{margin:5px auto 0}.focus-home h1{font-size:33px!important}.focus-home>.focus-prompt{font-size:12px;margin-bottom:20px}.focus-home>.focus-start{margin-top:20px!important}.focus-pause{right:10px;top:10px}body.activity-focus main{padding:48px 18px 24px}[data-activity="chef"] .module-card{min-height:98px;padding:15px 10px}[data-activity="chef"] .module-card strong{font-size:19px}[data-activity="sonidos"] .sound-card{min-height:90px;padding:11px 7px}[data-activity="mochila"].activity-focus .grid{display:flex;flex-direction:column-reverse;gap:14px;margin-top:15px}[data-activity="mochila"].activity-focus .bag{min-height:95px;padding:13px}[data-activity="mochila"].activity-focus .bag h3{font-size:15px;margin-bottom:8px}[data-activity="mochila"].activity-focus .items{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}[data-activity="mochila"].activity-focus .card{font-size:12px;min-height:69px;padding:10px;gap:6px}[data-activity="mochila"].activity-focus .icon{width:28px;font-size:23px;flex-shrink:0}[data-activity="mochila"].activity-focus .tag{font-size:11px;padding:6px;margin:3px}[data-activity="mochila"].activity-focus .stage{gap:12px}[data-activity="plan"] .mission-card{padding:15px 12px;min-height:125px}[data-activity="plan"] .mission-card h3{font-size:20px}}
+@media(prefers-reduced-motion:reduce){.focus-pause{transition:none}}
+[data-activity="chef"] .is-delivering .burger-plate{animation:serve-dish 1.2s ease-in-out both}[data-activity="chef"] #classicConfig>.prep-setting{margin:17px 0}[data-activity="chef"] .pause-actions{display:flex;gap:12px;flex-wrap:wrap}[data-activity="chef"] #challengePause>.secondary{margin-top:12px}[data-activity="chef"] .study-callout{margin:17px 0}[data-activity="chef"] .study-callout p,[data-activity="chef"] #recipeStudy>.note,[data-activity="chef"] .study-counter,[data-activity="chef"] #studyMetrics{display:none}[data-activity="chef"] #studyTitle{font-size:28px}[data-activity="chef"] #studyDescription{display:none}
+@keyframes serve-dish{to{transform:translateY(-65px) scale(.6);opacity:0}}
+@media(prefers-reduced-motion:reduce){[data-activity="chef"] .is-delivering .burger-plate{animation:none}}
